@@ -1,14 +1,10 @@
 # Cashier: Tag Based Caching for Rails
 
-[![Build Status](https://secure.travis-ci.org/twinturbo/cashier.png?branch=master)][travis]
-[![Gem Version](https://badge.fury.io/rb/cashier.png)][gem]
-[![Code Climate](https://codeclimate.com/github/twinturbo/cashier.png)][codeclimate]
-[![Dependency Status](https://gemnasium.com/twinturbo/cashier.png?travis)][gemnasium]
+[![Build Status](https://travis-ci.org/andreslemik/cashier.svg?branch=master)][travis]
+[![Code Climate](https://codeclimate.com/github/andreslemik/cashier.png)][codeclimate]
 
-[gem]: https://rubygems.org/gems/cashier
-[travis]: http://travis-ci.org/twinturbo/cashier
-[gemnasium]: https://gemnasium.com/twinturbo/cashier
-[codeclimate]: https://codeclimate.com/github/twinturbo/cashier
+[travis]: http://travis-ci.org/andreslemik/cashier
+[codeclimate]: https://codeclimate.com/github/andreslemik/cashier
 
 Manage your cache keys with tags, forget about keys!
 
