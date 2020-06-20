@@ -10,6 +10,7 @@ module Cashier
       end
 
       def self.store_fragment_in_tag(fragment, tag)
+        fragment = fragment.join('/') if fragment.is_a?(Array) # when passed combined fragment_cache_key like [:view, 'cache_name']
         redis.sadd(tag, fragment)
       end
 
